@@ -102,4 +102,7 @@ a:hover {
   .galery {
     grid-template-columns: 1fr;
   }
+  .up {
+    display: none;
+  }
 }

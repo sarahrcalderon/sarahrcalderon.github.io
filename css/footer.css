@@ -63,7 +63,6 @@ a:hover {
     gap: 40px;
   }
   .up {
-    justify-items: center;
-    margin-right: 100px;
+    display: none;
   }
 }
