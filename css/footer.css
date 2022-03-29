@@ -58,5 +58,6 @@ a:hover {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    max-width: 400px;
   }
 }
