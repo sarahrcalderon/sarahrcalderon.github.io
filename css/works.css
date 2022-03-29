@@ -1,6 +1,6 @@
 .layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(600px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   padding: 70px;
   align-items: center;
   background: #fafafa;
