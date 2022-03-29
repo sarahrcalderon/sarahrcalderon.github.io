@@ -21,6 +21,7 @@
   .menu {
     flex-direction: column;
     align-content: center;
+    padding: 0px;
   }
   .menu a {
     text-align: center;

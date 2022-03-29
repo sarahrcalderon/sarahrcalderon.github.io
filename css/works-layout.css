@@ -59,11 +59,11 @@
   color: #d6a476;
 }
 
-/***********************************************************/
-
 @media (max-width: 700px) {
   .menu {
     flex-direction: column;
+    align-content: center;
+    padding: 0px;
   }
   .menu a {
     background-color: #fafafa;
@@ -76,7 +76,6 @@
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
-    padding: 70px;
   }
   .layout-bg {
     grid-template-columns: 1fr;

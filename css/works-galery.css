@@ -18,13 +18,13 @@
 /******************************button***/
 .button {
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   font-size: 1.7rem;
   background: #fafafa;
   color: #b7ada3;
   text-decoration: none;
   border-radius: 50px;
-  width: 300px;
+  width: 200px;
 }
 .description {
   padding: 50px 40px;
@@ -99,5 +99,8 @@ a:hover {
 @media (max-width: 700px) {
   .galery {
     grid-template-columns: 1fr;
+  }
+  .footer-copy {
+    font-size: 0.6rem;
   }
 }

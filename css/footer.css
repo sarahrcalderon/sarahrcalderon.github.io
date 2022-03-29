@@ -57,7 +57,7 @@ a:hover {
     grid-template-columns: 1fr;
     align-items: center;
   }
-  .up {
-    display: none;
+  .footer-copy {
+    font-size: 0.6rem;
   }
 }
