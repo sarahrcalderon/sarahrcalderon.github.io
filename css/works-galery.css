@@ -89,9 +89,7 @@ footer {
 a:hover {
   color: #d6a476;
 }
-.up {
-  margin-left: 500px;
-}
+
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
@@ -101,8 +99,5 @@ a:hover {
 @media (max-width: 700px) {
   .galery {
     grid-template-columns: 1fr;
-  }
-  .up {
-    display: none;
   }
 }

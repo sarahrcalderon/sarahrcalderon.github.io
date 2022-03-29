@@ -54,15 +54,9 @@ footer {
 a:hover {
   color: #d6a476;
 }
-.up {
-  align-items: center;
-}
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
-  }
-  .up {
-    display: none;
   }
 }
