@@ -1,0 +1,24 @@
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  padding: 70px;
+  align-items: center;
+}
+h2 {
+  font-size: 3rem;
+  margin-top: 15px;
+  color: #aea39d;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: #aea39d;
+  font-family: GTZirkon-Thin;
+  src: url(../public/fonts/GTZirkon-Thin.ttf);
+}
+
+@media (max-width: 700px) {
+  .p {
+    text-align: center;
+  }
+}

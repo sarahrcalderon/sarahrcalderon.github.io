@@ -1,0 +1,11 @@
+.photo {
+  display: inline-block;
+  padding: 30px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+@media (max-width: 700px) {
+  .photo {
+    align-items: center;
+  }
+}

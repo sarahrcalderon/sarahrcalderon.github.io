@@ -1,0 +1,32 @@
+.name-tittle {
+  width: 100%;
+  height: 100vh;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+h2::after {
+  content: "";
+  display: block;
+  width: 1.8rem;
+  height: 0.2rem;
+  background-color: #d6a476;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding: 20px;
+}
+.menu a {
+  font-size: 1.125rem;
+  margin-right: 20px;
+  padding: 1.6rem 0.8rem;
+  text-decoration: none;
+  color: #aea39d;
+  display: block;
+}
+.menu a:hover {
+  color: #d6a476;
+}

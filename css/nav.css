@@ -1,0 +1,34 @@
+.background-home {
+  padding: 20px;
+  background: #2c2c2c;
+  background-image: url("/public/img/pattern-home.svg");
+  background-repeat: repeat;
+  width: 97%;
+  height: 100vh;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.menu a {
+  font-size: 1.125rem;
+  margin-right: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #aea39d;
+  display: block;
+}
+@media (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+    align-content: center;
+  }
+  .menu a {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 1rem;
+    margin-bottom: 20px;
+    border-radius: 0.3rem;
+  }
+}

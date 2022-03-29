@@ -1,0 +1,60 @@
+.name-tittle {
+  display: grid;
+  grid-row: auto;
+  align-items: center;
+}
+.name {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  font-family: georgiab;
+  src: url(../public/fonts/georgiab.ttf);
+  text-align: center;
+  margin-top: 15%;
+  color: #b1a59d;
+}
+.name-name {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 500px;
+  color: #c8c2bd;
+}
+/************************special name***************/
+.name {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/************************special name***************/
+.name-name {
+  animation-duration: 1.6s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .name {
+    font-size: 3rem;
+  }
+  .name-name {
+    font-size: 1.5rem;
+    margin-right: 20px;
+    line-height: 1;
+  }
+}
