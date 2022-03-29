@@ -2,17 +2,14 @@
   font-family: GTZirkon-Regular;
   src: url(../public/fonts/GTZirkon-Regular.ttf);
 }
-
 @font-face {
   font-family: GTZirkon-Thin;
   src: url(../public/fonts/GTZirkon-Thin.ttf);
 }
-
 @font-face {
   font-family: georgiab;
   src: url(../public/fonts/georgiab.ttf);
 }
-
 @font-face {
   font-family: GTZirkon-Bold;
   src: url(../public/fonts/GTZirkon-Bold.ttf);

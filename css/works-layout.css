@@ -76,7 +76,7 @@
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px;
+    padding: 70px;
   }
   .layout-bg {
     grid-template-columns: 1fr;

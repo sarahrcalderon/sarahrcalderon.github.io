@@ -2,12 +2,10 @@ footer {
   background: #cac1bb;
   width: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 70px;
   box-sizing: border-box;
 }
 .footer-container {
-  max-width: 1200px;
-  padding: 20px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -57,7 +55,9 @@ a:hover {
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
-    gap: 40px;
-    max-width: 400px;
+    align-items: center;
+  }
+  .up {
+    display: none;
   }
 }
