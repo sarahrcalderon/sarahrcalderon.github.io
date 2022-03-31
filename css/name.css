@@ -17,36 +17,7 @@
   padding-bottom: 500px;
   color: #c8c2bd;
 }
-/************************special name***************/
-.name {
-  animation-duration: 1.5s;
-  animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-right: 0%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 
-/************************special name***************/
-.name-name {
-  animation-duration: 1.6s;
-  animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-right: 0%;
-    width: 100%;
-  }
-}
 @media (max-width: 700px) {
   .name {
     font-size: 3rem;
@@ -56,8 +27,5 @@
   .name-name {
     font-size: 1.5rem;
     line-height: 1;
-  }
-  .slidein{
-    display: none;
   }
 }
