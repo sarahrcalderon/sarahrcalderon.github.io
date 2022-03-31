@@ -1,15 +1,18 @@
 .about {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   padding: 70px;
   align-items: center;
 }
-h2 {
+.tittleabout {
+  padding: 50px;
   font-size: 3rem;
   margin-top: 15px;
   color: #aea39d;
 }
-p {
+.text {
+  padding: 50px;
+  grid-row: 2;
   font-size: 1.6rem;
   line-height: 1.3;
   color: #aea39d;

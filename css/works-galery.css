@@ -40,7 +40,7 @@
   color: #fafafa;
   background: #ebc284;
 }
-footer {
+.footer {
   background: #cac1bb;
   width: 100%;
   text-align: center;
@@ -61,7 +61,8 @@ footer {
   font-size: 1.5rem;
   color: #9e9286;
 }
-.footer-container h2 {
+.textcontact {
+  font-size: 3rem;
   color: #9e9286;
   text-align: left;
   margin-bottom: 2rem;

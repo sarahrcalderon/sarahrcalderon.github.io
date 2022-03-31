@@ -17,15 +17,44 @@
   padding-bottom: 500px;
   color: #c8c2bd;
 }
+/************************special name***************/
+.name-name {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+.name {
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-right: 0%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 @media (max-width: 700px) {
   .name {
-    font-size: 3rem;
-    text-align: center;
-    justify-items: center;
+    display: flex;
+    font-size: 2.5rem;
+    align-items: center;
   }
   .name-name {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1;
   }
 }

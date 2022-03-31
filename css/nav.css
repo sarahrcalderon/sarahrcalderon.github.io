@@ -1,5 +1,5 @@
 .background-home {
-  padding: 20px;
+  padding: 70px;
   background: #2c2c2c;
   background-image: url("/public/img/pattern-home.svg");
   background-repeat: repeat;
@@ -21,7 +21,7 @@
   .menu {
     flex-direction: column;
     align-content: center;
-    padding: 0px;
+    padding: 30px;
   }
   .menu a {
     text-align: center;
