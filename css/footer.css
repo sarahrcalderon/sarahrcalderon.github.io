@@ -1,21 +1,19 @@
-footer {
-  background: #cac1bb;
-  width: 100%;
-  text-align: center;
-  padding: 70px;
+.footer {
+  background: #2c2c2c;
+  padding: 0;
   box-sizing: border-box;
 }
 .footer-container {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   align-items: center;
 }
 .footer-container a {
   text-decoration: none;
   text-align: left;
   font-size: 1.5rem;
-  color: #9e9286;
+  color: #2c2c2c;
 }
 .textcontact {
   font-size: 3rem;
@@ -56,9 +54,16 @@ a:hover {
 @media (max-width: 700px) {
   .footer-container {
     grid-template-columns: 1fr;
-    align-items: center;
+    gap: 40px;
   }
   .footer-copy {
+    grid-column: 1/-1;
     font-size: 0.6rem;
+  }
+  .footer {
+    background: rgb(255, 255, 255);
+  }
+  .email {
+    color: #2c2c2c;
   }
 }

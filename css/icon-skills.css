@@ -36,3 +36,9 @@ h2::after {
   grid-column: 1;
   flex-wrap: wrap;
 }
+@media (max-width: 350px) {
+  .skill {
+    background: #ffffff;
+    border-bottom: 1px solid #d6a476;
+  }
+}
