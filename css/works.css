@@ -1,69 +1,74 @@
-.layout {
+#works {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-  padding: 70px;
-  align-items: center;
-  background: #fafafa;
-  background-image: url("/public/img/pattern-work.svg");
-  background-repeat: repeat;
+  grid-template-columns: 1fr;
+  padding: 30px;
+  background: rgb(251, 249, 244);
+  background: linear-gradient(
+    86deg,
+    rgba(251, 249, 244, 1) 24%,
+    rgba(237, 230, 219, 1) 68%
+  );
+  height: 100vh;
 }
-.word-works {
-  font-size: 3rem;
-  grid-row: 2;
-  grid-column: 1;
-  margin-bottom: 250px;
-  margin-right: 100px;
-  color: #aea39f;
-}
-.layout p {
-  margin-top: 50px;
+#works h2 {
   font-size: 2rem;
-  font-family: GTZirkon-Thin;
-  src: url(../public/fonts/GTZirkon-Thin.ttf);
-  grid-column: 1;
-  grid-row: 2;
-  color: #bdb3ae;
+  font-family: "Abril Fatface", cursive;
+  color: #1a3c40;
+  margin-left: 560px;
+  padding: 20px;
+  margin-top: 200px;
 }
+
+#works p {
+  font-family: GTZirkon-Regular;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .arrow {
-  text-decoration: none;
-  font-size: 1.5rem;
-  color: #cc8849;
-  font-family: GTZirkon-Bold;
-  src: url(../public/fonts/GTZirkon-Bold.ttf);
-  grid-column: 1/-1;
-  grid-row: 2;
-  margin-top: 400px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 250px;
+  background-color: #1a3c40;
+  width: 200px;
+  height: 25px;
+  border-radius: 8px;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 730px;
+  box-shadow: 0 0 1em rgba(95, 95, 95, 0.298);
 }
-.word-works::after {
-  content: "";
-  display: block;
-  margin-left: 10px;
-  width: 1.5rem;
-  height: 0.2rem;
-  background-color: #d6a476;
+
+#works a {
+  color: white;
 }
+
+#works a:hover {
+  background-color: #dea057;
+}
+
 @media (max-width: 700px) {
-  .layout {
+  #works {
+    display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 0px;
+  }
+  #works h2 {
+    font-size: 2rem;
+    color: #1a3c40;
+    margin-left: 0px;
+    padding: 0px;
+    margin-left: 10px;
+    margin-top: 200px;
+  }
+  #works p {
+    display: none;
   }
   .arrow {
-    margin-top: 600px;
-  }
-  .layout p {
-    margin-bottom: 150px;
-  }
-  .work {
-    flex-wrap: wrap;
-  }
-  .word-works {
-    margin-bottom: 700px;
-  }
-}
-@media (max-width: 350px) {
-  .layout {
-    background: #ffffff;
-    border-bottom: 1px solid #d6a476;
+    font-size: 1.2rem;
+    background-color: #1a3c40;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 1em rgba(95, 95, 95, 0.298);
   }
 }

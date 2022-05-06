@@ -8,16 +8,20 @@
   <meta name="description" content="Desenvolvedora Front End e UI/UX Designer">
   <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <script src="https://kit.fontawesome.com/e3c06f5ca8.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./favicon--01.svg" type="image/svg+xml">
   <title>Sarah Calderon</title>
 </head>
 
 <body>
-  <div class="background-home">
-    <header class="navigation" id="up-navigation">
-      <script src="https://kit.fontawesome.com/e3c06f5ca8.js" crossorigin="anonymous"></script>
-      <nav aria-label="primary">
-        <ul class="menu">
+
+  <header id="header">
+    <div class="title-name">
+
+      <nav id="nav" aria-label="primary">
+        <ul id="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
@@ -25,59 +29,62 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
-    <div class="name-tittle" id="home">
-      <main>
-        <h1 class="name"> Sarah Calderon</h1>
-        <p class="name-name">Developer Front-End & UI Designer</p>
-      </main>
+
+      <h1>Sarah Calderon</h1>
+      <h3>Design UI & Developer<br><br><a href="#about"><i class="fa-solid fa-arrow-down"></i></h3></a>
     </div>
-  </div>
-  <article class="about" id="about">
-    <div class="about-tittle">
-      <h2 class="tittleabout">About</h2>
+  </header>
+
+  <article id="about">
+    <div class="about-title">
+      <h2>About</h2>
       <br>
-      <p class="text">Hi there! I am Sarah, I have been working with design for 3 years and in the last year I decided to improve my knowledge. I really appreciate the organization I am passionate about Russian literature, art history, anthropology and philosophy. Understanding people's behavior is something I find amazing. I'm a bit idealistic and I always try to find solutions that can solve problems. I believe we can make the world better, but I'm also not foolish enough to think that would happen in the next 100 years. I love cats and I love to explore new places where nature is more present.</p>
+      <p class="text">Hi there! I am Sarah, I have been working with design for 3 years and in the last year I decided to improve my knowledge. I really appreciate the organization I am passionate about Russian literature, art history, anthropology and philosophy. Understanding people's behavior is something I find amazing. I'm a bit idealistic and I always try to find solutions that can solve problems. I believe we can make the world better, but I'm also not foolish enough to think that would happen in the next 100 years. I love cats and I love to explore new places where nature is more present.<br><a href="#skills"><br><i class="fa-solid fa-arrow-down"></p></a></i>
+    </div>
   </article>
-  </div>
+
   <article id="skills">
-    <div class="skill">
-      <div class="skills-text">
-        <p>I develop projects thought about design and user experience.</p>
-        <h2>Skills</h2>
-      </div>
-      <div class="icons">
-        <img src="../public/img/icon-adobe-xd.svg">
-        <img src="../public/img/icon-figma.svg">
-        <img src="../public/img/icon-ps.svg">
-        <img src="../public/img/icon-ai.svg">
-        <img src="../public/img/icon-html.png">
-        <img src="../public/img/icon-css.png">
-        <img src="../public/img/icon-js.png">
-      </div>
+    <div class="skills-text">
+      <p>I develop projects thought about design and user experience.</p>
+      <h2 class="title-skills">Skills</h2>
+      <ul class="icons">
+        <li><a href=""><i class="devicon-figma-plain"></i></li></a>
+        <li><a href=""><i class="devicon-xd-plain"></i></li></a>
+        <li><a href=""><i class="devicon-photoshop-plain"></i></li></a>
+        <li><a href=""><i class="devicon-illustrator-plain"></i></li></a>
+        <li><a href=""><i class="devicon-javascript-plain"></i></li></a>
+        <li><a href=""><i class="devicon-html5-plain"></i></li></a>
+        <li><a href=""><i class="devicon-css3-plain"></i></li></a>
+      </ul>
+      <br><a href="#works"><i class="fa-solid fa-arrow-down"></i></a>
+    </div>
   </article>
+
   <section>
-    <div class="layout">
-      <h2 class="word-works"> Works</h2>
+    <div id="works">
+      <h2> Works</h2>
       <p> See some of my work organized through figma, html, css and javascript.</p>
       <a class="arrow" href="works.html">see more
         <i class="fas fa-arrow-right"></i></a>
     </div>
   </section>
-  <footer class="footer" id="contact">
-    <div class="footer-container">
-      <h2 class="textcontact">Contact</h2>
-      <ul>
+
+  <footer id="contact">
+    <div>
+      <ul class="icons">
         <li><a href="https://github.com/sarahrcalderon"><i class="fa-brands fa-github"></i></a></li>
         <li> <a href="https://medium.com/@sarahrcalderonn"><i class="fa-brands fa-medium"></i></a></li>
         <li><a href="https://www.behance.net/sarahcalderonn"><i class="fa-brands fa-behance"></i></a></li>
         <li> <a href="https://www.instagram.com/sarahrcalderon/"><i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="https://www.linkedin.com/in/srcalderon/"><i class="fa-brands fa-linkedin-in"></i></a></li>
       </ul>
-      <span class="email">srcalderonn@gmail.com</span>
+      <a class="email" href="mailto:srcalderonn@gmail.com?subject= subject text">srcalderonn@gmail.com</a>
+      </h3>
       <p class="footer-copy">Sarah Calderon &copy; Todos os Direitos Reservados. 2022</p>
     </div>
   </footer>
+
+
 </body>
 
 </html>
