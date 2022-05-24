@@ -5,10 +5,10 @@
   height: 100vh;
   background-image: url("/public/img/cat2.gif");
   background-repeat: no-repeat;
-  background-color: rgb(255, 255, 255);
+  background-color: #1c1f23;
 }
 .backgroundnav {
-  background-color: white;
+  background-color: #1c1f23;
 }
 .workpage h3 {
   font-size: 2.7rem;
@@ -19,7 +19,7 @@
   color: #dea057;
 }
 .workpage a {
-  color: #1a3c40;
+  color: #e1e1e1;
   font-size: 2rem;
   margin-top: 200px;
   margin-right: 400px;

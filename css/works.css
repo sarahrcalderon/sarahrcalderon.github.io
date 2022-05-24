@@ -1,74 +1,11 @@
+.container-fluid {
+  background-color: #ede6db;
+}
 #works {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 30px;
-  background: rgb(251, 249, 244);
-  background: linear-gradient(
-    86deg,
-    rgba(251, 249, 244, 1) 24%,
-    rgba(237, 230, 219, 1) 68%
-  );
-  height: 100vh;
-}
-#works h2 {
-  font-size: 2rem;
-  font-family: "Abril Fatface", cursive;
-  color: #1a3c40;
-  margin-left: 560px;
-  padding: 20px;
-  margin-top: 200px;
-}
-
-#works p {
-  font-family: GTZirkon-Regular;
-  font-size: 1.2rem;
+  font-family: GTZirkon-Thin;
+  font-size: 1.5rem;
+  font-weight: 400;
   text-align: center;
-}
-
-.arrow {
-  font-size: 1.2rem;
-  text-align: center;
-  margin-bottom: 250px;
-  background-color: #1a3c40;
-  width: 200px;
-  height: 25px;
-  border-radius: 8px;
-  justify-content: center;
-  padding: 10px;
-  margin-left: 730px;
-  box-shadow: 0 0 1em rgba(95, 95, 95, 0.298);
-}
-
-#works a {
-  color: white;
-}
-
-#works a:hover {
-  background-color: #dea057;
-}
-
-@media (max-width: 700px) {
-  #works {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
-  }
-  #works h2 {
-    font-size: 2rem;
-    color: #1a3c40;
-    margin-left: 0px;
-    padding: 0px;
-    margin-left: 10px;
-    margin-top: 200px;
-  }
-  #works p {
-    display: none;
-  }
-  .arrow {
-    font-size: 1.2rem;
-    background-color: #1a3c40;
-    margin-left: 10px;
-    border-radius: 8px;
-    box-shadow: 0 0 1em rgba(95, 95, 95, 0.298);
-  }
+  padding: 300px 200px;
+  line-height: 2.5;
 }
