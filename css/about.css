@@ -1,53 +1,12 @@
-#about {
-  display: grid;
-  grid-template-columns: 0.8fr;
-  background-color: #ede6db;
-  margin: 0px;
+.titulo1 {
+  border-radius: 3px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-transform: uppercase;
+  background-color: yellow;
 }
-.about-title h2 {
-  text-align: center;
-  justify-content: center;
-  font-family: "Abril Fatface", cursive;
-  font-size: 2rem;
-  color: #1a3c40;
-  margin-left: 250px;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-.about-title p {
-  color: rgba(30, 30, 30, 0.683);
-  font-family: GTZirkon-Regular;
-  line-height: 1.5;
-  font-size: 1.2rem;
-  justify-content: center;
-  word-break: keep-all;
-  padding: 20px 30px;
-  margin-left: 320px;
-  margin-bottom: 50px;
-}
-.text i {
-  margin-left: 320px;
-  color: #1a3c40;
-}
-
-@media (max-width: 700px) {
-  #about {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .about-title h2 {
-    padding: 20px;
-    margin-left: 10px;
-    text-align: start;
-    font-size: 1.6rem;
-  }
-  .about-title p {
-    text-align: start;
-    margin-left: 0px;
-    font-size: 1rem;
-  }
-  .text i {
-    margin-left: 0px;
-  }
+.texto {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-break: 1.2;
 }

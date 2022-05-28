@@ -1,0 +1,36 @@
+.background2 {
+  background-image: url("./img/cat.gif");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.tituloprojeto {
+  background-color: #ffa80b;
+  margin-top: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  text-orientation: upright;
+  text-transform: uppercase;
+}
+.listaprojeto {
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+}
+
+.projetoslista {
+  color: black;
+  font-size: 1rem;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 800px) {
+  .background2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

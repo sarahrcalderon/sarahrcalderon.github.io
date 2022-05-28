@@ -1,48 +1,30 @@
-#skills {
-  display: grid;
-  grid-template-columns: 1fr;
-  padding: 30px;
-  background-color: #e6e2db;
-  height: 100vh;
-}
-
-.skills-text {
+.paragrafo {
+  font-size: 3rem;
   margin-top: 200px;
-  font-size: 2rem;
-  text-align: center;
-  font-family: GTZirkon-Thin;
-  line-height: 2;
 }
-.title-skills {
-  font-size: 1.5rem;
-  grid-column: 1;
-}
-#skills ul {
+.icons,
+icones-2 {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 100px;
+  gap: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.icones {
+  color: #1f1f1f;
   font-size: 3rem;
 }
-
-#skills a {
-  color: #1a3c40;
-  font-size: 2rem;
+.icones-2 {
+  font-size: 4rem;
+  color: #454545;
 }
 
-@media (max-width: 700px) {
-  #skills {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
-    height: none;
-    background-color: #e6e2db;
-  }
-  .skills-text {
-    margin-top: 100px;
-    font-size: 1.2rem;
-  }
-  #skills ul {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 1.8rem;
+@media (max-width: 800px) {
+  .paragrafo {
+    font-size: 1.5rem;
   }
 }

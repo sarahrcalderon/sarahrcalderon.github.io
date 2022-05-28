@@ -7,92 +7,125 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Desenvolvedora Front End e UI/UX Designer">
   <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/reset.css" />
   <link rel="stylesheet" href="./css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
   <script src="https://kit.fontawesome.com/e3c06f5ca8.js" crossorigin="anonymous"></script>
   <link rel="icon" href="./favicon--01.svg" type="image/svg+xml">
   <title>Sarah Calderon</title>
 </head>
 
 <body>
-  <header id="header">
-    <div class="title-name">
-
-      <nav id="nav" aria-label="primary">
-        <ul id="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="works.html">Works</a></li>
-          <li><a href="#contact">Contact</a></li>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#texto">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#habilidades">Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projetos">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
         </ul>
-      </nav>
-
-      <h1>Sarah Calderon</h1>
-      <h3>Design UI & Developer<br><br><a href="#about"><i class="fa-solid fa-arrow-down"></i></h3></a>
-    </div>
-  </header>
+      </div>
+    </nav>
+  </div>
 
 
-  <article id="about">
+  <div class="container-fluid">
+    <h1 class="nome">Sarah Calderon</h1>
+
+  </div>
+  <div>
+
+
     <div class="container">
-      <div class="about-title">
-        <h2>About</h2>
-        <br>
-        <p class="text">Hi there! I am Sarah, I have been working with design for 3 years and in the last year I decided to improve my knowledge. I really appreciate the organization I am passionate about Russian literature, art history, anthropology and philosophy. Understanding people's behavior is something I find amazing. I'm a bit idealistic and I always try to find solutions that can solve problems. I believe we can make the world better, but I'm also not foolish enough to think that would happen in the next 100 years. I love cats and I love to explore new places where nature is more present.<br><a href="#skills"><br><i class="fa-solid fa-arrow-down"></p></a></i>
+      <div class="row">
+        <div class="col align-self-start">
+          <h2 class="titulo1">Sobre</h2>
+          <button type="button" class="btn btn-outline-dark"><a href="https://drive.google.com/file/d/17P7VgmAkf3UO30ERd-SEXy_XrNr4UUK1/view?usp=sharing" download="https://drive.google.com/drive/u/3/folders/1CFzjgT2MKZIEG6-fn-pSHufdNe7pkiFv">cv download</a></button>
+
+        </div>
+
+        <div class="col align-self-center">
+          <img class="img" src="./css/img/img1.jpg" alt="photoperfil">
+        </div>
+        <div class="col align-self-end">
+          <p id="#texto" class="texto">Olá! Eu sou a Sarah, trabalhei com design por 3 anos e no último ano decidi aprimorar meus conhecimentos. Atualmente estou cursando Engenharia de Software. Eu realmente aprecio a organização, e sou apaixonada pela literatura russa, história da arte, antropologia e filosofia. Eu adoro viajar e explorar novos lugares, e obviamente uma amante do café :-)</p>
+        </div>
       </div>
     </div>
-  </article>
 
-  <article id="skills">
-    <div class="skills-text">
-      <p>I develop projects thought about design and user experience.</p>
-      <h2 class="title-skills">Skills</h2>
-      <ul class="icons">
-        <li><a href=""><i class="devicon-figma-plain"></i></li></a>
-        <li><a href=""><i class="devicon-xd-plain"></i></li></a>
-        <li><a href=""><i class="devicon-photoshop-plain"></i></li></a>
-        <li><a href=""><i class="devicon-illustrator-plain"></i></li></a>
-        <li><a href=""><i class="devicon-javascript-plain"></i></li></a>
-        <li><a href=""><i class="devicon-html5-plain"></i></li></a>
-        <li><a href=""><i class="devicon-css3-plain"></i></li></a>
+    <div class="background">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <p id="habilidades" class="paragrafo">Procuro sempre desenvolver projetos pensados ​​em design e experiência de usuário
+              .</p>
+          </div>
+          <div class="col-4">
+            <ul class="icons">
+              <li><a class="icones" href=""><i class="devicon-figma-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-xd-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-photoshop-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-illustrator-plain"></i></li>
+              <li><a class="icones" href=""><i class="devicon-javascript-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-html5-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-css3-plain"></i></li></a>
+              <li><a class="icones" href=""><i class="devicon-bootstrap-plain"></i>
+              </li></a>
+              <li><a class="icones-2" href=""><i class="devicon-mysql-plain-wordmark "></i></a>
+              <li><a class="icones-2" href=""><i class="devicon-oracle-original"></i>
+                </a>
+            </ul>
+            </ul></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 id="#projetos" class="tituloprojeto"> Projetos</h2>
+      <ul class="listaprojeto">
+        <li><a class="projetoslista" href="projetos">Southside</a></li>
+        <li><a class="projetoslista" href="projetos">Terracecoffee</a></li>
+        <li><a class="projetoslista" href="projetos">Tubarões Fantásticos</a></li>
       </ul>
-      <br><a href="#works"><i class="fa-solid fa-arrow-down"></i></a>
     </div>
-  </article>
-
-  <section>
-    <div class="container-fluid">
-      <div id="works">
-        <h2> Works</h2>
-        <p> See some of my work organized through figma, html, css and javascript.</p>
-        <a class="btn btn-dark" href="./works.html" role="button">Projects</a>
-      </div>
-    </div>
-  </section>
 
 
-
-  <script type="text/javascript" src="./js/jquery-3.2.1.slim.min.js"></script>
-  <script type="text/javascript" src="./js/popper.min.js"></script>
-  <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js">
+    </script>
 
 </body>
-<footer id="contact">
-  <div>
-    <ul class="icons">
-      <li><a href="https://github.com/sarahrcalderon"><i class="fa-brands fa-github"></i></a></li>
-      <li> <a href="https://medium.com/@sarahrcalderonn"><i class="fa-brands fa-medium"></i></a></li>
-      <li><a href="https://www.behance.net/sarahcalderonn"><i class="fa-brands fa-behance"></i></a></li>
-      <li> <a href="https://www.instagram.com/sarahrcalderon/"><i class="fa-brands fa-instagram"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/srcalderon/"><i class="fa-brands fa-linkedin-in"></i></a></li>
-    </ul>
-    <a class="email" href="mailto:srcalderonn@gmail.com?subject= subject text">srcalderonn@gmail.com</a>
-    </h3>
-    <p class="footer-copy">Sarah Calderon &copy; Todos os Direitos Reservados. 2022</p>
+<div class="background2">
+  <div class="container">
+    <footer class="footer">
+      <div>
+        <ul class="icons">
+          <li><a class="iconefooter" href="https://github.com/sarahrcalderon"><i class="fa-brands fa-github"></i></a></li>
+          <li> <a class="iconefooter" href="https://medium.com/@sarahrcalderonn"><i class="fa-brands fa-medium"></i></a></li>
+          <li><a class="iconefooter" href="https://www.behance.net/sarahcalderonn"><i class="fa-brands fa-behance"></i></a></li>
+          <li> <a class="iconefooter" href="https://www.instagram.com/sarahrcalderon/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a class="iconefooter" href="https://www.linkedin.com/in/srcalderon/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+
+        </ul>
+        <p id="#contato" class="footer-copy">Sarah Calderon &copy; Todos os Direitos Reservados. 2022</p>
+      </div>
   </div>
+</div>
 </footer>
 
 

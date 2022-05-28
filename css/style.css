@@ -1,15 +1,7 @@
-/*ORGANISMS*/
-@import "./nav.css";
-@import "./footer.css";
-@import "./skills.css";
-@import "./works.css";
-
-/*HELPERS*/
-@import "./reset.css";
 @import "./fonts.css";
-/*PAGES*/
+@import "./img.css";
 @import "./home.css";
-@import "./page-work.css";
-
-/*MOLECULES*/
 @import "./about.css";
+@import "./skills.css";
+@import "./footer.css";
+@import "./projetos.css";

@@ -1,57 +1,19 @@
-#contact {
-  box-sizing: content-box;
-  background-color: #dea057;
+.footer {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 200px;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 30px 30px;
 }
-
 .icons {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   font-size: 1.5rem;
-  line-height: 1.7;
-  justify-content: center;
 }
-footer a {
-  color: #fcffe7;
-}
-a:hover {
-  color: #a64b2a;
-}
-
-.email {
-  text-decoration: none;
-  font-family: GTZirkon-Thin;
-  color: #fcffe7;
-  font-size: 1.3rem;
-  line-height: 1.7;
-}
-
 .footer-copy {
-  font-size: 0.8rem;
-  font-family: GTZirkon-Regular;
-  color: #a64b2a66;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-@media (max-width: 700px) {
-  #contact {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 0px;
-    line-height: 3;
-  }
-  .icons {
-    margin-top: 20px;
-    font-size: 1.2rem;
-  }
-  .email {
-    font-size: 0.8rem;
-  }
-  .footer-copy {
-    font-size: 0.5rem;
-  }
+.iconefooter {
+  color: #1f1f1f;
+  margin-left: 20px;
 }
