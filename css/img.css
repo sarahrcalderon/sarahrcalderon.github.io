@@ -5,3 +5,8 @@
   max-height: 100%;
   border: 3px solid yellow;
 }
+@media (max-width: 800px) {
+  .img {
+    display: none;
+  }
+}

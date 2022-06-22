@@ -21,22 +21,6 @@ body {
 a:hover {
   color: #ffa80b;
 }
-.nome {
-  animation-duration: 1s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 @media (max-width: 800px) {
   body {
@@ -45,6 +29,7 @@ a:hover {
   }
   .nome {
     font-size: 1.5rem;
+    text-align: start;
   }
   .texto {
     margin-top: 20px;

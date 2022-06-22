@@ -1,41 +1,26 @@
-.card {
-  max-width: 30%;
-  max-height: 30%;
-}
+.imagemproduto {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+  order: 1;
 
-/*background2 {
-  background-image: url("./img/cat.gif");
-  background-repeat: no-repeat;
-  background-size: contain;
+  max-width: 350px;
+  max-height: 350px;
+  min-height: 350px;
+  min-width: 350px;
+  width: auto;
+  height: auto;
 }
-.tituloprojeto {
-  background-color: #ffa80b;
-  margin-top: 200px;
-  padding: 10px;
-  border-radius: 10px;
-  text-orientation: upright;
-  text-transform: uppercase;
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
 }
-.listaprojeto {
-  flex-wrap: wrap;
-  list-style: none;
-  text-decoration: none;
-}
-
-.projetoslista {
-  color: black;
-  font-size: 1rem;
-  text-align: left;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
 @media (max-width: 800px) {
-  .background2 {
+  .galeria {
     display: grid;
     grid-template-columns: 1fr;
   }
-  .footer {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}*/
+}
